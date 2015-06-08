@@ -1,0 +1,1 @@
+grails.dependency.cache.dir = "/root/.m2/repository"
