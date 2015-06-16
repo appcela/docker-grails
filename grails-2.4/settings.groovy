@@ -1,1 +1,1 @@
-grails.dependency.cache.dir = "/root/.m2/repository"
+grails.dependency.cache.dir = "/app/.m2/repository"

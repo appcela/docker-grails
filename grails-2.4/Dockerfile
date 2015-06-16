@@ -20,7 +20,7 @@ ENV PATH $GRAILS_HOME/bin:$PATH
 WORKDIR /
 RUN mkdir /app
 WORKDIR /app
-VOLUME ["/app"]
+VOLUME ["/app", "/root/.m2/repository"]
 
 # Expose Ports (web=8080, debug=5005)
 EXPOSE 5005 8080
